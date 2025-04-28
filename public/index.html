@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthXtract - News Authenticity Detector</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TruthXtract</h1>
+            <nav>
+                <a href="#verify" class="nav-link" id="verifyLink">Verify News</a>
+                <a href="#gallery" class="nav-link" id="galleryLink">News Gallery</a>
+            </nav>
+        </header>
+
+        <section id="verify" class="verify-section">
+            <h2>Verify News Authenticity</h2>
+            <div class="input-container">
+                <textarea 
+                    id="newsInput" 
+                    placeholder="Paste your news article here to verify its authenticity..."
+                ></textarea>
+                <button id="verifyBtn" class="verify-button">
+                    Verify News
+                </button>
+            </div>
+            <div id="result" class="result-container"></div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>Latest News Analysis</h2>
+            <div class="gallery-controls">
+                <button id="refreshGallery" class="glow-button">Refresh News</button>
+                <div id="loadingIndicator" class="loading-indicator hidden">Loading...</div>
+            </div>
+            <div id="newsGallery" class="gallery-grid"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

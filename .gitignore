@@ -1,0 +1,12 @@
+node_modules
+venv
+gemini-credentials.json
+__pycache__
+# Ignore dataset
+dataset/
+   
+# Ignore environment variables
+.env
+   
+# Ignore Git folder
+.git
