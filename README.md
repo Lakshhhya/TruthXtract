@@ -19,6 +19,10 @@ In an age of rampant misinformation, **TruthXtract** stands as a guardian of tru
 </div>
 
 ---
+![image](https://github.com/user-attachments/assets/5f0b52be-87f0-4727-aedc-07a4ee6875d8)
+![image](https://github.com/user-attachments/assets/7d78fa31-de34-42d1-88e1-693ac1fab329)
+![image](https://github.com/user-attachments/assets/3c832242-0868-4e45-9984-3acaed937634)
+![image](https://github.com/user-attachments/assets/bec426ce-db89-4014-a624-eb1ef56408a9)
 
 ## ✨ Key Features
 
