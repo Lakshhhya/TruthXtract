@@ -98,7 +98,7 @@ Visit `http://localhost:3000` to access the application.
 1. **Input Reception & Preprocessing** 📥
    - Text normalization and cleaning
    - Content chunking for transformer models
-   - Basic fact checking against knowledge base
+   - Basic fact-checking against the knowledge base
 
 2. **Parallel AI Analysis** 🤖
    - DeBERTa transformer model for pattern detection
